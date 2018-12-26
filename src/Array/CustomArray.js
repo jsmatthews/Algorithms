@@ -9,6 +9,7 @@ const ShellSort = require('./ShellSort')
 const CombSort = require('./CombSort')
 const CountSort = require('./CountSort')
 const CycleSort = require('./CycleSort')
+const GnomeSort = require('./GnomeSort')
 
 const CustomArray = function () {
 	this.data = []
@@ -67,5 +68,6 @@ CustomArray.prototype.shellSort = ShellSort
 CustomArray.prototype.combSort = CombSort
 CustomArray.prototype.countSort = CountSort
 CustomArray.prototype.cycleSort = CycleSort
+CustomArray.prototype.gnomeSort = GnomeSort
 
 module.exports = CustomArray
