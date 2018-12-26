@@ -1,4 +1,5 @@
 const BubbleSort = require('./BubbleSort')
+const BiBubbleSort = require('./BiBubbleSort')
 const SelectionSort = require('./SelectionSort')
 const InsertionSort = require('./InsertionSort')
 const QuickSort = require('./QuickSort')
@@ -53,6 +54,7 @@ const CustomArray = function () {
 }
 
 CustomArray.prototype.bubbleSort = BubbleSort
+CustomArray.prototype.biBubbleSort = BiBubbleSort
 CustomArray.prototype.selectionSort = SelectionSort
 CustomArray.prototype.insertionSort = InsertionSort
 CustomArray.prototype.quickSort = QuickSort

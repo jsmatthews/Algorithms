@@ -37,6 +37,11 @@ describe('Sort', () => {
 		expect(sortedArray).toEqual([0, 3, 23, 42, 50, 56, 123, 344, 456, 789])
 	})
 
+	it('should biBubbleSort an array', () => {
+		const sortedArray = customArray.biBubbleSort()
+		expect(sortedArray).toEqual([0, 3, 23, 42, 50, 56, 123, 344, 456, 789])
+	})
+
 	it('should selectionSort an array', () => {
 		const sortedArray = customArray.selectionSort()
 		expect(sortedArray).toEqual([0, 3, 23, 42, 50, 56, 123, 344, 456, 789])
