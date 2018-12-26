@@ -7,6 +7,7 @@ const MergeSort = require('./MergeSort')
 const RadixSort = require('./RadixSort')
 const ShellSort = require('./ShellSort')
 const CombSort = require('./CombSort')
+const CountSort = require('./CountSort')
 
 const CustomArray = function () {
 	this.data = []
@@ -63,5 +64,6 @@ CustomArray.prototype.mergeSort = MergeSort
 CustomArray.prototype.radixSort = RadixSort
 CustomArray.prototype.shellSort = ShellSort
 CustomArray.prototype.combSort = CombSort
+CustomArray.prototype.countSort = CountSort
 
 module.exports = CustomArray
