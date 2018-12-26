@@ -81,4 +81,9 @@ describe('Sort', () => {
 		const sortedArray = customArray.countSort()
 		expect(sortedArray).toEqual([0, 3, 23, 42, 50, 56, 123, 344, 456, 789])
 	})
+
+	it('should cycleSort an array', () => {
+		const sortedArray = customArray.cycleSort()
+		expect(sortedArray).toEqual([0, 3, 23, 42, 50, 56, 123, 344, 456, 789])
+	})
 })
