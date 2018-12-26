@@ -10,6 +10,7 @@ const CombSort = require('./CombSort')
 const CountSort = require('./CountSort')
 const CycleSort = require('./CycleSort')
 const GnomeSort = require('./GnomeSort')
+const OddEvenSort = require('./OddEvenSort')
 
 const CustomArray = function () {
 	this.data = []
@@ -69,5 +70,6 @@ CustomArray.prototype.combSort = CombSort
 CustomArray.prototype.countSort = CountSort
 CustomArray.prototype.cycleSort = CycleSort
 CustomArray.prototype.gnomeSort = GnomeSort
+CustomArray.prototype.oddEvenSort = OddEvenSort
 
 module.exports = CustomArray
