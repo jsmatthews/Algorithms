@@ -6,6 +6,7 @@ const QuickSort = require('./QuickSort')
 const MergeSort = require('./MergeSort')
 const RadixSort = require('./RadixSort')
 const ShellSort = require('./ShellSort')
+const CombSort = require('./CombSort')
 
 const CustomArray = function () {
 	this.data = []
@@ -61,5 +62,6 @@ CustomArray.prototype.quickSort = QuickSort
 CustomArray.prototype.mergeSort = MergeSort
 CustomArray.prototype.radixSort = RadixSort
 CustomArray.prototype.shellSort = ShellSort
+CustomArray.prototype.combSort = CombSort
 
 module.exports = CustomArray
