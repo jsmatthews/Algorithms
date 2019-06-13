@@ -13,6 +13,6 @@ const BubbleSort = function() {
 	}
 
 	return this.data
-}
+}	
 
 module.exports = BubbleSort
